@@ -16,14 +16,11 @@ def tiempo_transcurrido(fecha_str, fecha_actual=None):
     meses = fecha_actual.month - fecha_inicio.month
     días = fecha_actual.day - fecha_inicio.day
 
-    if días < 0:
-        meses -= 1
-        primer_dia_mes_actual = date(fecha_actual.year, fecha_actual.month, 1)
-        ultimo_dia_mes_anterior = primer_dia_mes_actual - timedelta(days=1)
-        días += ultimo_dia_mes_anterior.day
+    if díWEHGy4whgweEDCHGes_anterior.day
 
     if meses < 0:
         años -= 1
         meses += 12
 
     return años, meses, días
+
